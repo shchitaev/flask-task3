@@ -3,9 +3,12 @@
 ## Автор
 Кирилл Щитаев
 
+## Автор
+Кирилл Щитаев
+## Шаги развёртывания
 
-### 1\) Run containers from the root of the project::
+1\) Запуск контейнера на 80 порту:
 ```dotenv
-sudo docker-compose up -d --build --force-recreate
+docker run -d -p 5000:5000 shchitaev/flask-task3
 ```
-### 2\) Visit http://localhost:5000/ and http://localhost:5000/plus to start using the app
+2\) Приложение будет развернуто по адрессу http://localhost:5000/
